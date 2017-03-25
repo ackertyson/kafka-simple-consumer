@@ -1,0 +1,31 @@
+{
+  "name": "kafka-simple-consumer",
+  "version": "0.0.1",
+  "description": "Simple wrapper for node-rdkafka KafkaConsumer class",
+  "main": "dist/app.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ackertyson/kafka-simple-consumer.git"
+  },
+  "author": "tyson@devmode.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ackertyson/kafka-simple-consumer/issues"
+  },
+  "homepage": "https://github.com/ackertyson/kafka-simple-consumer#readme",
+  "dependencies": {
+    "node-rdkafka": "^0.8.2-TWFIX"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.12.4",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.4"
+  }
+}
