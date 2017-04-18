@@ -1,6 +1,6 @@
 {
   "name": "kafka-simple-consumer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple wrapper for node-rdkafka KafkaConsumer class",
   "main": "dist/app.js",
   "files": [
